@@ -1,0 +1,83 @@
+========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: sgnz19jx: GNU/Linux
+   OS: GNU/Linux -- 2.6.32-042stab108.8 -- #1 SMP Wed Jul 22 17:23:23 MSK 2015
+   Machine: i686 (i686)
+   Language: en_US.utf8 (charmap="UTF-8", collate="UTF-8")
+   CPU 0: Intel(R) Xeon(R) CPU E5645 @ 2.40GHz (4800.2 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 1: Intel(R) Xeon(R) CPU E5645 @ 2.40GHz (4799.9 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 2: Intel(R) Xeon(R) CPU E5645 @ 2.40GHz (4800.2 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 3: Intel(R) Xeon(R) CPU E5645 @ 2.40GHz (4799.9 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   02:27:21 up 4 days,  6:27,  1 user,  load average: 0.08, 0.02, 0.00; runlevel 5
+
+------------------------------------------------------------------------
+Benchmark Run: جمعه فوریه 12 2016 02:27:21 - 02:55:36
+4 CPUs in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables       17711688.9 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     3064.1 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               3757.2 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        569518.1 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          167715.5 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       1166614.4 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1389733.1 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 208154.8 lps   (10.0 s, 7 samples)
+Process Creation                               9529.8 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   5884.1 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    763.4 lpm   (60.0 s, 2 samples)
+System Call Overhead                        2598304.5 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   17711688.9   1517.7
+Double-Precision Whetstone                       55.0       3064.1    557.1
+Execl Throughput                                 43.0       3757.2    873.8
+File Copy 1024 bufsize 2000 maxblocks          3960.0     569518.1   1438.2
+File Copy 256 bufsize 500 maxblocks            1655.0     167715.5   1013.4
+File Copy 4096 bufsize 8000 maxblocks          5800.0    1166614.4   2011.4
+Pipe Throughput                               12440.0    1389733.1   1117.1
+Pipe-based Context Switching                   4000.0     208154.8    520.4
+Process Creation                                126.0       9529.8    756.3
+Shell Scripts (1 concurrent)                     42.4       5884.1   1387.8
+Shell Scripts (8 concurrent)                      6.0        763.4   1272.4
+System Call Overhead                          15000.0    2598304.5   1732.2
+                                                                   ========
+System Benchmarks Index Score                                        1093.2
+
+------------------------------------------------------------------------
+Benchmark Run: جمعه فوریه 12 2016 02:55:36 - 03:30:37
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       17499553.9 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                    12164.8 MWIPS (10.1 s, 7 samples)
+Execl Throughput                               3804.1 lps   (29.7 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        597361.3 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          175322.1 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       1178069.6 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1369429.7 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 188028.5 lps   (10.0 s, 7 samples)
+Process Creation                               9123.6 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   5653.3 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    741.0 lpm   (60.2 s, 2 samples)
+System Call Overhead                        2488896.1 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   17499553.9   1499.5
+Double-Precision Whetstone                       55.0      12164.8   2211.8
+Execl Throughput                                 43.0       3804.1    884.7
+File Copy 1024 bufsize 2000 maxblocks          3960.0     597361.3   1508.5
+File Copy 256 bufsize 500 maxblocks            1655.0     175322.1   1059.3
+File Copy 4096 bufsize 8000 maxblocks          5800.0    1178069.6   2031.2
+Pipe Throughput                               12440.0    1369429.7   1100.8
+Pipe-based Context Switching                   4000.0     188028.5    470.1
+Process Creation                                126.0       9123.6    724.1
+Shell Scripts (1 concurrent)                     42.4       5653.3   1333.3
+Shell Scripts (8 concurrent)                      6.0        741.0   1235.0
+System Call Overhead                          15000.0    2488896.1   1659.3
+                                                                   ========
+System Benchmarks Index Score                                        1209.0
+

@@ -1,0 +1,92 @@
+========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: ali: GNU/Linux
+   OS: GNU/Linux -- 4.2.3-1-ARCH -- #1 SMP PREEMPT Sat Oct 3 18:52:50 CEST 2015
+   Machine: x86_64 (unknown)
+   Language: en_US.utf8 (charmap="UTF-8", collate="UTF-8")
+   CPU 0: Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz (4591.8 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 1: Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz (4591.8 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 2: Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz (4591.8 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 3: Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz (4591.8 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 4: Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz (4591.8 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 5: Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz (4591.8 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 6: Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz (4591.8 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 7: Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz (4591.8 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   17:13:48 up  5:22,  6 users,  load average: 0.05, 0.18, 0.28; runlevel unknown
+
+------------------------------------------------------------------------
+Benchmark Run: Fri Nov 13 2015 17:13:48 - 17:41:56
+8 CPUs in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables       36157695.3 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     4383.9 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               5077.9 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks       1138884.2 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          312062.8 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       2629357.2 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             2194421.1 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 204983.9 lps   (10.0 s, 7 samples)
+Process Creation                              11793.1 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   4623.1 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                   2134.4 lpm   (60.0 s, 2 samples)
+System Call Overhead                        4296286.6 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   36157695.3   3098.3
+Double-Precision Whetstone                       55.0       4383.9    797.1
+Execl Throughput                                 43.0       5077.9   1180.9
+File Copy 1024 bufsize 2000 maxblocks          3960.0    1138884.2   2876.0
+File Copy 256 bufsize 500 maxblocks            1655.0     312062.8   1885.6
+File Copy 4096 bufsize 8000 maxblocks          5800.0    2629357.2   4533.4
+Pipe Throughput                               12440.0    2194421.1   1764.0
+Pipe-based Context Switching                   4000.0     204983.9    512.5
+Process Creation                                126.0      11793.1    936.0
+Shell Scripts (1 concurrent)                     42.4       4623.1   1090.3
+Shell Scripts (8 concurrent)                      6.0       2134.4   3557.3
+System Call Overhead                          15000.0    4296286.6   2864.2
+                                                                   ========
+System Benchmarks Index Score                                        1720.7
+
+------------------------------------------------------------------------
+Benchmark Run: Fri Nov 13 2015 17:41:56 - 18:10:15
+8 CPUs in system; running 8 parallel copies of tests
+
+Dhrystone 2 using register variables      152352397.8 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                    29263.9 MWIPS (10.0 s, 7 samples)
+Execl Throughput                              24685.6 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks       1057714.9 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks          281775.5 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks       3136578.4 KBps  (30.0 s, 2 samples)
+Pipe Throughput                            10167462.0 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                1688265.8 lps   (10.0 s, 7 samples)
+Process Creation                              61853.8 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                  20078.7 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                   2784.2 lpm   (60.1 s, 2 samples)
+System Call Overhead                        9546402.0 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0  152352397.8  13055.0
+Double-Precision Whetstone                       55.0      29263.9   5320.7
+Execl Throughput                                 43.0      24685.6   5740.8
+File Copy 1024 bufsize 2000 maxblocks          3960.0    1057714.9   2671.0
+File Copy 256 bufsize 500 maxblocks            1655.0     281775.5   1702.6
+File Copy 4096 bufsize 8000 maxblocks          5800.0    3136578.4   5407.9
+Pipe Throughput                               12440.0   10167462.0   8173.2
+Pipe-based Context Switching                   4000.0    1688265.8   4220.7
+Process Creation                                126.0      61853.8   4909.0
+Shell Scripts (1 concurrent)                     42.4      20078.7   4735.5
+Shell Scripts (8 concurrent)                      6.0       2784.2   4640.3
+System Call Overhead                          15000.0    9546402.0   6364.3
+                                                                   ========
+System Benchmarks Index Score                                        4979.2
+
+
